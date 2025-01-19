@@ -1,5 +1,6 @@
 import tenzies from "../assets/tenzies.png";
 import endGame from "../assets/endgame.png";
+import portfolio from "../assets/portfolio.png"
 
 const skills = [
     { language: "HTML", color: "#E44D26", textColor: "#FFFFFF" },        // HTML color
@@ -27,7 +28,16 @@ const projects = [
     languagesUsed: ["HTML", "CSS", "JavaScript", "React"],
     sourceCode: "https://github.com/xinruGan08/Endgame",
     liveView: "https://hangman-endgame-xr.netlify.app/",
-    displayImg: endGame}
+    displayImg: endGame
+},
+{
+    projectName: "Portfolio",
+    projectDescription: "A project that simulates the A project that includes my portfolio, showcasing the outcome of self-learning React.",
+    languagesUsed: ["HTML", "CSS", "JavaScript", "React"],
+    sourceCode: "https://github.com/xinruGan08/self-portfolio",
+    liveView: "https://portfolio-xr.netlify.app/",
+    displayImg: portfolio
+}
 ];
 
 

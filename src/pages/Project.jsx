@@ -13,9 +13,9 @@ export default function Project(){
                 {projects.map(({projectName,projectDescription,languagesUsed,sourceCode,liveView,displayImg}) =>
                     (<div className="project" key={projectName}>
                         <img src={displayImg} alt={projectName}/>
-                        <div className ="project-des">
+                        <div className ="project-detailed">
                             <h5>{projectName}</h5>
-                            <p>{projectDescription}</p>
+                            <p className="project-des">{projectDescription}</p>
                             <div className="project-button">
                                 <button onClick={() => window.open(sourceCode, "_blank")}>Source Code</button>
                                 <button onClick={() => window.open(liveView, "_blank")}>Live View</button>
