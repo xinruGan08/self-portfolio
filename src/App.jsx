@@ -3,6 +3,7 @@ import Home from "./pages/Home"
 import Layout from './components/Layout'
 import About from "./pages/About"
 import Project from "./pages/Project"
+import Achievements from "./pages/Achievements"
 
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
           <Route path="about" element={<About/>}/>
           <Route path="contact"/>
           <Route path="projects" element={<Project/>}/>
-          <Route path="certification"/>
+          <Route path="certification" element = {<Achievements/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

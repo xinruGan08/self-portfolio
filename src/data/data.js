@@ -1,12 +1,15 @@
-import tenzies from "../assets/tenzies.png";
-import endGame from "../assets/endgame.png";
-import portfolio from "../assets/portfolio.png"
+import tenzies from "../assets/projects/tenzies.png";
+import endGame from "../assets/projects/endgame.png";
+import portfolio from "../assets/projects/portfolio.png"
+
+import advancedReact from "../assets/certificate/advancedReact.jpg"
+import reactBasic from "../assets/certificate/reactBasic.jpg"
 
 const skills = [
-    { language: "HTML", color: "#E44D26", textColor: "#FFFFFF" },        // HTML color
-    { language: "CSS", color: "#2965F1", textColor: "#FFFFFF" },         // CSS color
-    { language: "Javascript", color: "#F7DF1E", textColor: "#000000" },  // JavaScript color
-    { language: "Java", color: "#007396", textColor: "#FFFFFF" },        // Java color
+    { language: "HTML", color: "#E44D26", textColor: "#FFFFFF" },       
+    { language: "CSS", color: "#2965F1", textColor: "#FFFFFF" },         
+    { language: "Javascript", color: "#F7DF1E", textColor: "#000000" },  
+    { language: "Java", color: "#007396", textColor: "#FFFFFF" },        
     { language: "Python", color: "#306998", textColor: "#FFFFFF" },      // Python color
     { language: "React", color: "#61DAFB", textColor: "#000000" },       // React color
     { language: "Git", color: "#F05033", textColor: "#FFFFFF" },         // Git color
@@ -32,7 +35,7 @@ const projects = [
 },
 {
     projectName: "Portfolio",
-    projectDescription: "A project that simulates the A project that includes my portfolio, showcasing the outcome of self-learning React.",
+    projectDescription: "A project that includes my portfolio, showcasing the outcome of self-learning React.",
     languagesUsed: ["HTML", "CSS", "JavaScript", "React"],
     sourceCode: "https://github.com/xinruGan08/self-portfolio",
     liveView: "https://portfolio-xr.netlify.app/",
@@ -40,5 +43,20 @@ const projects = [
 }
 ];
 
+const achievements = [
+    {
+        name: "Advanced React",
+        description: "for fun",
+        date_issued: "10/1/2025",
+        img_preview: advancedReact
+    },
+    {
+        name: "React Basics",
+        description: "for fun",
+        date_issued: "23/12/2024",
+        img_preview: reactBasic
+    }
+]
 
-export {skills, projects};
+
+export {skills, projects, achievements};
