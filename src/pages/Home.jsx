@@ -12,7 +12,7 @@ export default function Home(){
                 <p>
                     I am a <strong>second-year Computer Science student at Monash University</strong>, currently <strong>seeking an internship opportunity from November 2025 to February 2026</strong> to enhance my skills and gain real-world experience in the tech industry.
                 </p>
-                <h5>Current CGPA: 3.83</h5>
+                <h5>Current CGPA: 3.945</h5>
                 <div className="home-button">
                     <button onClick={()=>navigate("projects")}>Projects</button>
                     <button onClick={()=>navigate("contact")}>Contact</button>

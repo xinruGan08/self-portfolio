@@ -4,6 +4,7 @@ import portfolio from "../assets/projects/portfolio.png"
 
 import advancedReact from "../assets/certificate/advancedReact.jpg"
 import reactBasic from "../assets/certificate/reactBasic.jpg"
+import pass from "../assets/certificate/PASS.jpg"
 
 const skills = [
     { language: "HTML", color: "#E44D26", textColor: "#FFFFFF" },       
@@ -45,14 +46,20 @@ const projects = [
 
 const achievements = [
     {
+        name: "PASS Leader" ,
+        description: "Conducted four 1-hour weekly online classes for 9 weeks, supporting students' understanding.",
+        date_issued: "22/1/2025",
+        img_preview: pass
+    },
+    {
         name: "Advanced React",
-        description: "for fun",
+        description: "Master advanced React concepts, including manipulating props, creating compound components, using Context, Refs, and building custom hooks",
         date_issued: "10/1/2025",
         img_preview: advancedReact
     },
     {
         name: "React Basics",
-        description: "for fun",
+        description: "Learn the fundamentals of React, including custom components, JSX, class-based components, styling, and understanding why React is used",
         date_issued: "23/12/2024",
         img_preview: reactBasic
     }

@@ -305,13 +305,13 @@ h5{
 
 .achievement-section{
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(22em,1fr));
+  grid-template-columns: repeat(auto-fit,22em);
   gap:1.25em;
 }
 
 .achievement{
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 6fr 4fr;
   border-radius: 2em;
   height: 12em;
   overflow: hidden;
@@ -320,7 +320,7 @@ h5{
 
 /* Image container */
 .achievement-image {
-  width: 200px; /* Example fixed size */
+  width: 100%; /* Example fixed size */
   height: 100%; 
   overflow: hidden;
   cursor: pointer;
@@ -348,8 +348,12 @@ h5{
 }
 
 .achievement-detailed > p{
-  font-size: 0.83em;
+  font-size: 0.6em;
   padding: 0.5em 0;
+}
+
+.achievement-detailed  p strong{
+  font-size: 1.2em;
 }
 
 /* Modal background */
@@ -386,4 +390,23 @@ h5{
 
 .modal .close:hover {
   color: #ff5c5c;
+}
+
+.contact{
+  display: flex;
+  align-items: center;
+  gap:0.75em;
+  justify-content: center;
+  margin-top: 0.5em;
+}
+
+.contact-icon{
+  font-size: 2.5em;
+  color: black;
+  transition: transform 0.3s ease;
+}
+
+.contact-icon:hover {
+  transform: translateY(-5px);
+  color: #333333;
 }
